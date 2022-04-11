@@ -12,7 +12,7 @@
   <div class="container">
   <div class="menu">
       <a class="logo-link" href="#home">
-        <img src="svg/noemi-logo.svg" alt="логотип" width="180px"></a>
+        <img src="svg/noemi-logo.svg" alt="логотип" width="160px"></a>
       <nav class=" header-menu">
         <ul class="menu-list">
           <li class="menu-list-item">
@@ -102,7 +102,7 @@
      <article class="post">
        <div class="pic">
        <img src="images/last-post1.jpg"
-        alt="человек идет по воде">
+        alt="человек идет по воде" width="100%">
          </div>
        <div class="text">
          <ul class="menu-text">
@@ -123,7 +123,7 @@
     </article>
     <article class="post">
           <div class="pic">
-        <img src="images/last-post2.jpg" alt="йога на пляже">
+            <img src="images/last-post2.jpg" alt="йога на пляже" width="100%">
           </div>
            <div class="text">
         <ul class="menu-text">
@@ -144,7 +144,7 @@
       </article>
       <article class="post">
         <div class="pic">
-        <img src="images/last-post3.jpg" alt="концерт">
+        <img src="images/last-post3.jpg" alt="концерт" width="100%">
         </div>
          <div class="text">
         <ul class="menu-text">
@@ -161,7 +161,7 @@
       </article>
       <article class="post">
         <div class="pic">
-        <img src="images/last-post4.jpg" alt="тарелка на столе">
+        <img src="images/last-post4.jpg" alt="тарелка на столе" width="100%">
         </div>
          <div class="text">
         <ul class="menu-text">
@@ -182,7 +182,7 @@
           </article>
       <article class="post">
         <div class="pic">
-        <img src="images/last-post5.jpg" alt="подушка">
+        <img src="images/last-post5.jpg" alt="подушка" width="100%">
         </div>
          <div class="text">
         <ul class="menu-text">
@@ -332,12 +332,20 @@
           <h2 class="trend-now">наши изделия</h2></a>
           <div class="mades">
           <article class="our-made">
-            <div class="made-box">
-              <img class="made-image" src="images/shop-item-desk1.jpg" alt="подушка">
+             <div class="made-box">
+              <picture>
+                <source 
+                media="(min-width: 641px) , (max-width: 1200px)"
+                sreset="images/shop-item-tablet1.jpg">
+                <source 
+                media="max-width: 360px"
+                sreset="images/shop-item-mobile1.jpg">
+              <img class="made-image" src="images/shop-item-desk1.jpg" alt="подушка" width="100%">
+            </picture>
             </div>
           <div class="made-body">
                   <div class="made-content">
-                    <h2 class="title-made">подушка на диван</h2>
+                    <h3 class="title-made">подушка на диван</h3>
                     <div class="made-text">
                       <p>Набор из двух подушек с модными принтами.Видео о создании <a href="#0"> здесь</a>.</p>
                     </div>
@@ -358,11 +366,19 @@
                </article>
                <article class="our-made">
           <div class="made-box">
-              <img class="made-image" src="images/shop-item-desk2.jpg" alt="зайчик">
+            <picture>
+                <source 
+                media="(min-width: 641px) , (max-width: 1200px)"
+                sreset="images/shop-item-tablet2.jpg">
+                <source 
+                media="max-width: 360px"
+                sreset="images/shop-item-mobile2.jpg">
+              <img class="made-image" src="images/shop-item-desk2.jpg" alt="зайчик" width="100%">
+            </picture>
             </div>
             <div class="made-body">
                   <div class="made-content">
-                    <h2 class="title-made">кукла "Зайчик"</h2>
+                    <h3 class="title-made">кукла "Зайчик"</h3>
                     <div class="made-text">
                       <p>Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                     </div>
@@ -380,11 +396,19 @@
                </article>
                <article class="our-made">
           <div class="made-box">
-              <img class="made-image" src="images/shop-item-desk3.jpg" alt="рамка">
+            <picture>
+                <source 
+                media="(min-width: 641px) , (max-width: 1200px)"
+                sreset="images/shop-item-tablet3.jpg">
+                <source 
+                media="max-width: 360px"
+                sreset="images/shop-item-mobile3.jpg">
+              <img class="made-image" src="images/shop-item-desk3.jpg" alt="рамка" width="100%">
+            </picture>
             </div>
             <div class="made-body">
                   <div class="made-content">
-                    <h2 class="title-made">шестиугольная рамка</h2>
+                    <h3 class="title-made">шестиугольная рамка</h3>
                     <div class="made-text">
                       <p>Необычная рамка для украшения дома из видео <a href="#0">Как сделать рамку из подручных средств за 30 минут"</a>.</p>
                     </div>
@@ -453,7 +477,7 @@
             <input type="search" placeholder="Почти каждый день" class="search-field">
           <span class="visually-hidden">Почти каждый день</span>
          <button type="submit" class="search-field-popup">
-          
+          <span class="visually-hidden">Кнопка выбора</span>
         </button>
         </form>
         <form class="radio-choice">
