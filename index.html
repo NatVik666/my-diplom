@@ -11,8 +11,13 @@
   <header class="header">
   <div class="container">
   <div class="menu">
-      <a class="logo-link" href="#home">
-        <img src="svg/noemi-logo.svg" alt="логотип" width="160px"></a>
+    <div class="logo-link">
+        <img src="svg/noemi-logo.svg" alt="логотип" width="100%" ></div>
+        <div class="hamburger-menu">
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-btn" for="menu-toggle">
+    <span></span>
+  </label>
       <nav class=" header-menu">
         <ul class="menu-list">
           <li class="menu-list-item">
@@ -36,14 +41,16 @@
         </ul>
       </nav>
     </div>
+    </div>
     <a href="#0">
     <h1 class="title">блог о творчестве, спорте, и образе жизни</h1></a>
   </div>
     
   </header> 
+ 
  <section class="subtitle-newWrap">
   <a href="#0">
-        <h2 class="trend-now">сейчас в тренде</h2></a>
+    <h2 class="trend-now">сейчас в тренде</h2></a>
           <div class="trends">
           <article class="trend">
              <div class="trend-post1">
@@ -97,6 +104,7 @@
             </article>
           </div>
           </section>
+        
            <div class="content">
   <main class="post-content">
      <article class="post">
@@ -210,7 +218,7 @@
           <h3 class="subtitle-new">новые посты</h3></a>
       <article class="post2">
         <div class="pic2">
-        <img src="images/2.jpg" alt="человек идет по воде">
+        <img src="images/2.jpg" alt="человек идет по воде" width="100%">
         </div>
         <div class="text2">
         <div class="time2">14 июня 2019</div>
@@ -220,7 +228,7 @@
       </article>
       <article class="post2">
         <div class="pic2">
-        <img src="images/7.jpg" alt="волосы">
+        <img src="images/7.jpg" alt="волосы" width="100%">
         </div>
         <div class="text2">
         <div class="time2">14 июня 2019</div>
@@ -230,7 +238,7 @@
       </article>
       <article class="post2">
         <div class="pic2">
-        <img src="images/45.jpg" alt="кресло">
+        <img src="images/45.jpg" alt="кресло" width="100%">
         </div>
         <div class="text2">
          <div class="time2">14 июня 2019</div>
@@ -240,7 +248,7 @@
       </article>
       <article class="post2">
         <div class="pic2">
-        <img src="images/151.jpg" alt="йога">
+        <img src="images/151.jpg" alt="йога" width="100%">
         </div>
         <div class="text2">
         <div class="time2">14 июня 2019</div>
@@ -250,7 +258,7 @@
       </article>
       <article class="post2">
         <div class="pic2">
-        <img src="images/501.jpg" alt="тарелка">
+        <img src="images/501.jpg" alt="тарелка" width="100%">
         </div>
         <div class="text2">
         <div class="time2">14 июня 2019</div>
@@ -335,10 +343,10 @@
              <div class="made-box">
               <picture>
                 <source 
-                media="(min-width: 641px) , (max-width: 1200px)"
+                media="(min-width: 641px) and (max-width: 1199px)"
                 sreset="images/shop-item-tablet1.jpg">
                 <source 
-                media="max-width: 360px"
+                media="max-width: 640px"
                 sreset="images/shop-item-mobile1.jpg">
               <img class="made-image" src="images/shop-item-desk1.jpg" alt="подушка" width="100%">
             </picture>
@@ -368,10 +376,10 @@
           <div class="made-box">
             <picture>
                 <source 
-                media="(min-width: 641px) , (max-width: 1200px)"
+                media="(min-width: 641px) and (max-width: 1199px)"
                 sreset="images/shop-item-tablet2.jpg">
                 <source 
-                media="max-width: 360px"
+                media="max-width: 640px"
                 sreset="images/shop-item-mobile2.jpg">
               <img class="made-image" src="images/shop-item-desk2.jpg" alt="зайчик" width="100%">
             </picture>
@@ -398,10 +406,10 @@
           <div class="made-box">
             <picture>
                 <source 
-                media="(min-width: 641px) , (max-width: 1200px)"
+                media="(min-width: 641px) and (max-width: 1199px)"
                 sreset="images/shop-item-tablet3.jpg">
                 <source 
-                media="max-width: 360px"
+                media="max-width: 640px"
                 sreset="images/shop-item-mobile3.jpg">
               <img class="made-image" src="images/shop-item-desk3.jpg" alt="рамка" width="100%">
             </picture>
